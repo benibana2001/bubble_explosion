@@ -113,7 +113,7 @@ $duration_float_end: 3s;
     }
     .bubble:nth-child(#{$i}) span:nth-child(2){
       $turn_time: random(20);
-      background-image: url("../src/images/character#{(($i % 9) + 1)}.png");
+      background-image: url("/public/images/character#{(($i % 9) + 1)}.png");
       animation: chapter1_turn#{($i % 9 ) + 1} #{$turn_time}s linear forwards infinite;
     }
   }
